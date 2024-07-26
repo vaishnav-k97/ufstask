@@ -59,7 +59,7 @@ export default function Student() {
         </div>
         <table className="min-w-full bg-white border border-gray-300 rounded-lg">
           <thead>
-            <tr className="">
+            <tr>
               <th className="p-2 border-b">#</th>
               <th className="p-2 border-b">Enrolled</th>
               <th className="p-2 border-b">Follow Up on</th>
@@ -79,7 +79,7 @@ export default function Student() {
                   <input type="checkbox" className="form-checkbox h-4 w-4 text-blue-500" />
                 </td> 
                 <td className="p-2 border-b">{student.followUp}</td>
-                <td className="p-2 border-b">{student.name}</td>
+                <td className="p-2 border-b text-blue-700">{student.name}</td>
                 <td className="p-2 border-b">{student.mobile}</td>
                 <td className="p-2 border-b">{student.remark}</td>
                 <td className="p-2 border-b">{student.department}</td>
